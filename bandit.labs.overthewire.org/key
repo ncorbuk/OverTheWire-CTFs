@@ -1,0 +1,93 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/CN=localhost
+   i:/CN=localhost
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIICBjCCAW+gAwIBAgIEHYaZVDANBgkqhkiG9w0BAQUFADAUMRIwEAYDVQQDDAls
+b2NhbGhvc3QwHhcNMjAwMTA1MTU1NzU4WhcNMjEwMTA0MTU1NzU4WjAUMRIwEAYD
+VQQDDAlsb2NhbGhvc3QwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALnNkoES
+dc+bJYmoBnjc43xt4n/zq0OIlxe37wkJzsH4Zkr5wHwoRTH4Q/g4MarLhcHpyFS7
+YBT1hFdxG76tlWhQKjqe680PnxHMrZJFVtO/Gscl9luzalM/h2AebrJ0lX9pPTBX
+Yrizk17mvyl50yYj9MLuvIAfb353gv3frwcRAgMBAAGjZTBjMBQGA1UdEQQNMAuC
+CWxvY2FsaG9zdDBLBglghkgBhvhCAQ0EPhY8QXV0b21hdGljYWxseSBnZW5lcmF0
+ZWQgYnkgTmNhdC4gU2VlIGh0dHBzOi8vbm1hcC5vcmcvbmNhdC8uMA0GCSqGSIb3
+DQEBBQUAA4GBADRDuQtY5NX3aZpNcgracBO3f5fNhdTYp+qERd6xVhq5wdEn9iuJ
+zXJh/halRZuriUnqoQmhhmHlBX4NGVVue+9OSh3yfGeNDkP+rnZ0Xji4gXRiBZao
++HCq5y9yG1sEufHUFCq2ZRZQ9IOghWiA/qxxGQQD+hocFVljquCricbf
+-----END CERTIFICATE-----
+subject=/CN=localhost
+issuer=/CN=localhost
+---
+No client certificate CA names sent
+Peer signing digest: SHA512
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1019 bytes and written 269 bytes
+Verification error: self signed certificate
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 1024 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 4BECC4A74C6B1EA1ADE74E76CFDE222F3E6A5F70DB0C378879491097475495CB
+    Session-ID-ctx: 
+    Master-Key: E32684B2B15BD71A317686096AB5F1A0EA30FEB4FFE009463EBFA5EF41E41DE3AFDDFE47F93AA6FC557DD005AF852225
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - ba ef 89 66 b0 7e fc 80-8f e1 37 6a 85 4c c3 2c   ...f.~....7j.L.,
+    0010 - 73 b6 47 e3 94 54 52 81-dd 0c c9 80 bf 5e f3 13   s.G..TR......^..
+    0020 - ff 5a 17 a2 cc 72 e9 8e-19 7f 97 c9 a8 dc 03 bf   .Z...r..........
+    0030 - 4c 78 59 4b b8 eb 1c 08-cf 41 ab d7 49 df 07 6f   LxYK.....A..I..o
+    0040 - 70 cc c6 99 b2 43 97 17-16 b3 96 a3 73 a0 e7 5a   p....C......s..Z
+    0050 - 75 fb 91 e1 f5 a3 a3 04-62 6e 8f 37 10 67 2b 6e   u.......bn.7.g+n
+    0060 - 70 04 15 f5 e0 e7 22 df-06 d7 46 86 e0 1c 9d e0   p....."...F.....
+    0070 - 43 c3 35 ae c9 a1 4e 5d-a2 7f 7a da 38 2b dc e0   C.5...N]..z.8+..
+    0080 - f8 ac e9 02 cd 26 8e 2e-de 8e 4d b7 95 67 5f 4d   .....&....M..g_M
+    0090 - 92 0c e3 93 ea c3 e3 5f-a0 a5 d0 c7 f7 da 23 98   ......._......#.
+
+    Start Time: 1578866994
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self signed certificate)
+    Extended master secret: yes
+---
+Correct!
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+closed
